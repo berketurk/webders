@@ -1,0 +1,39 @@
+body{
+	background:url("images/1.jpg");
+	animation:image 15s infinite alternate;
+	-webkit-animation:image 15s infinite alternate;
+	-moz-animation:image 15s infinite alternate;
+}
+@keyframes image{
+	0%{
+		background:url("images/1.jpg");
+	}
+
+	25%{
+		background:url("images/2.jpg");
+	}
+
+	50%{
+		background:url("images/3.jpg");
+	}
+
+	75%{
+		background:url("images/4.jpg");
+	}
+
+	100%{
+		background:url("images/5.jpg");
+	}
+
+    
+}
+
+.small-middle-container{
+	margin: auto;
+	width: 30%;
+}
+
+.small-container{
+	margin: auto;
+	width: 40%;
+}
